@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK", "BK\BK.csproj", "{438F87AB-26AA-4273-808A-847A82BCCBAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.API", "BK.API\BK.API.csproj", "{438F87AB-26AA-4273-808A-847A82BCCBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Entities", "BK.Entities\BK.Entities.csproj", "{DC3A3D2D-CBA4-4174-B4C3-2CF3DD366EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.DAL", "BK.DAL\BK.DAL.csproj", "{E87BA8BD-336B-48CA-B2BE-6AA48DA55970}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{438F87AB-26AA-4273-808A-847A82BCCBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{438F87AB-26AA-4273-808A-847A82BCCBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{438F87AB-26AA-4273-808A-847A82BCCBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3A3D2D-CBA4-4174-B4C3-2CF3DD366EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3A3D2D-CBA4-4174-B4C3-2CF3DD366EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3A3D2D-CBA4-4174-B4C3-2CF3DD366EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3A3D2D-CBA4-4174-B4C3-2CF3DD366EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87BA8BD-336B-48CA-B2BE-6AA48DA55970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87BA8BD-336B-48CA-B2BE-6AA48DA55970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87BA8BD-336B-48CA-B2BE-6AA48DA55970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87BA8BD-336B-48CA-B2BE-6AA48DA55970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

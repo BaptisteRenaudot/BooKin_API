@@ -1,6 +1,13 @@
+using BK.Dal;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<BKDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BkDb"));
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
